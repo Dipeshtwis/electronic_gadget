@@ -1,7 +1,7 @@
 @import "./reset.css";
 
 body {
-	background-color: #888888;
+	background-color: #a8a5a5;
 	font-family: Gotham, Helvetica;
 }
 
@@ -52,6 +52,95 @@ text-indent: 0.3em;
 .search button {
 	background-color: #383838;
 	margin-left: 1em;
+}
+
+section {
+	background-color: white;
+	margin-top: -2em;
+}
+.col-md-3 .hot-ad {
+padding:1em;
+font-size: 1.4em;
+text-align: center;
+color: #888888;
+
+}
+.col-md-3 img {
+	height: 300px;
+	width: 100%;
+}
+
+.col-md-9 {
+	padding-top: 3.5em;
+}
+
+.col-md-9 h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+	color: #d35266;
+}
+.col-md-9 p {
+	font-size: 1.5em;
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+.ads-btn {
+	padding: .5em;
+	background-color: #d35266; 
+	margin-bottom: 2em;
+	border:none;
+}
+.ads-btn span {
+	padding: 1em;
+}
+
+.grid-header {
+	padding-top: 3em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid white;
+}
+.grid-header-img {
+	height: 30px;
+	vertical-align: middle;
+}
+.grid-header span {
+	padding-left: 1em;
+	font-size: 1.1em;
+}
+.grid-header span small {
+	font-size: .8em;
+}
+.sec-2 {
+	padding-top: 1.5em;
+}
+.col-md-3 .card .card-img-top {
+	height: 210px;
+	padding:2em;
+	padding-bottom: 1.5em;
+}
+.cart-title {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1.4em;
+	text-transform: capitalize;
+}
+.card-text {
+	padding-bottom: 1em;
+	color: #d35266;
+}
+.card-body h6 {
+	padding-bottom: 1.8em;
+}
+.card-foot {
+display: flex;
+}
+.add {
+	flex: 1;
+}
+.price {
+	flex:1;
+	text-align: right;
+	color: #d35266;
 }
 .hidden-ph {
 	display: none;
