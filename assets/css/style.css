@@ -1,1 +1,64 @@
 @import "./reset.css";
+
+body {
+	background-color: #888888;
+	font-family: Gotham, Helvetica;
+}
+
+.container {
+	max-width: 1366px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+	color: #d35266;
+}
+
+.jumbotron {
+	background-color: #d35266;
+}
+.header-h1{
+color: #fff;
+font-weight: 800;
+font-family: Gotham, Helvetica;
+text-transform: uppercase;
+font-size: 2rem;
+}
+
+.header-p {
+	text-transform: capitalize;
+font-weight: 400;
+font-size: 1.5rem;
+color: #fff;
+margin-top: 1em;
+margin-bottom: 2em;
+}
+.center {
+	text-align: center;
+}
+.search {
+	margin-top: 2em;
+	height: 4em;
+}
+.search .input-search {
+	height:2.2em;
+	width:18vw;
+	border:none;
+}
+.search .no-gap {
+margin-left: -0.4em;
+border-left: 1px solid #d35266;
+text-indent: 0.3em;
+}
+.search button {
+	background-color: #383838;
+	margin-left: 1em;
+}
+.hidden-ph {
+	display: none;
+}
+
+@media only screen and (min-width: 768px){
+	.hidden-ph {
+		display: block;
+	}
+}
