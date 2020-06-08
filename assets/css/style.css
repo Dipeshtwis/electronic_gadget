@@ -1,7 +1,7 @@
 @import "./reset.css";
 
 body {
-	background-color: #a8a5a5;
+	background-color: #e6e8e6;
 	font-family: Gotham, Helvetica;
 }
 
@@ -104,7 +104,7 @@ color: #888888;
 	vertical-align: middle;
 }
 .grid-header span {
-	padding-left: 1em;
+	padding-left: .8em;
 	font-size: 1.1em;
 }
 .grid-header span small {
@@ -118,10 +118,13 @@ color: #888888;
 	padding:2em;
 	padding-bottom: 1.5em;
 }
+.col-sm-6 {
+	margin-top: 1em;
+}
 .cart-title {
 	padding-top: 1em;
 	padding-bottom: 1em;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	text-transform: capitalize;
 }
 .card-text {
@@ -142,6 +145,52 @@ display: flex;
 	text-align: right;
 	color: #d35266;
 }
+
+footer {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background-color: white;
+	padding: 2em 0;
+}
+
+.footer-para {
+	margin-top: 1em;
+	font-size: 1.2em;
+	line-height: 1.2;
+	color: grey;
+}
+.footer-list {
+	color: grey;
+	padding:1em;
+}
+.footer-list li {
+	margin-bottom: .3em; 
+}
+.col-12 {
+	margin-bottom: .7em;
+}
+.col-12 span {
+	color: #d35266;
+}
+.for-border {
+	border-bottom: 2px solid #d35266;
+	padding-bottom: .4em;
+}
+.col-12 button {
+	margin-left: .6em;
+	padding: .3em;
+}
+.footer-link {
+	display: inline-block;
+}
+.footer-header span {
+	font-size: 2em;
+	margin-left: .2em;
+}
+.last {
+	padding-top:1em;
+	border-top: 1px solid #383838;
+}
 .hidden-ph {
 	display: none;
 }
@@ -150,4 +199,10 @@ display: flex;
 	.hidden-ph {
 		display: block;
 	}
+	.footer-header {
+	padding-left:5em;
+}
+.footer-social {
+	text-align: right;
+}
 }
