@@ -299,10 +299,7 @@ aside {
   padding-bottom: 1em;
 }
 
-.hidden-ph {
-  display: none;
-}
-
+.hidden-ph,
 .hide {
   display: none;
 }
