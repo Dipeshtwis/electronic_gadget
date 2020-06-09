@@ -43,6 +43,7 @@ margin-bottom: 2em;
 	height:2.2em;
 	width:18vw;
 	border:none;
+
 }
 .search .no-gap {
 margin-left: -0.4em;
@@ -52,6 +53,7 @@ text-indent: 0.3em;
 .search button {
 	background-color: #383838;
 	margin-left: 1em;
+	color: white;
 }
 
 .ad-section {
@@ -159,10 +161,7 @@ footer {
 	line-height: 1.2;
 	color: grey;
 }
-.footer-list {
-	color: grey;
-	padding:1em;
-}
+
 .footer-list li {
 	margin-bottom: .3em; 
 }
@@ -182,6 +181,21 @@ footer {
 }
 .footer-link {
 	display: inline-block;
+	margin-right: .5em;
+}
+.footer-list li a {
+	color: grey;
+	padding:1em;
+	text-decoration: none;
+}
+.footer-list li a:hover {
+	text-decoration: underline;
+}
+.footer-link a {
+	color: #383838;
+}
+.footer-link a:hover {
+	color: #d35266;
 }
 .footer-header span {
 	font-size: 2em;
@@ -195,12 +209,31 @@ footer {
 /* search page */
 
 .whole-sec {
-	margin-top: -2em;
 	background-color:#e6e8e6; 
+}
+aside {
+	border-bottom: 1px solid #888888;
+
+}
+.spec-ul,
+.check-div {
+	padding: 1em;
+}
+
+.spec-list {
+display: inline-block;
+margin-left: 1.5em;
+}
+
+.for-bord {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.3;
+
 }
 .search-heading {
 	padding-bottom: .8em;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #888888;
 }
 
 .searchlap-img {
@@ -232,11 +265,33 @@ footer {
 .footer-social {
 	text-align: right;
 }
-.search-result {
-	border-left: 1px solid black;
-	padding-left: 3em;
-}
+
 .md-gap {
 	margin-left: .2em;
+	margin-right: .2em;
+}
+.whole-sec {
+	margin-top: -2em;
+}
+
+}
+@media only screen and (min-width: 992px){
+.spec-list {
+display: block;
+margin-left: 1em;
+margin-top: 2em;
+
+}
+aside {
+	border:none;
+}
+.for-bord {
+	border-bottom: .5px solid #888888;
+	padding-bottom: .5em;
+}
+.search-result {
+	border-left: 1px solid #888888;
+	border-right: 1px solid #888888;
+	padding-left: 3em;
 }
 }
