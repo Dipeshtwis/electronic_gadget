@@ -54,7 +54,7 @@ text-indent: 0.3em;
 	margin-left: 1em;
 }
 
-section {
+.ad-section {
 	background-color: white;
 	margin-top: -2em;
 }
@@ -110,6 +110,7 @@ color: #888888;
 .grid-header span small {
 	font-size: .8em;
 }
+.search-se-2,
 .sec-2 {
 	padding-top: 1.5em;
 }
@@ -190,6 +191,27 @@ footer {
 	padding-top:1em;
 	border-top: 1px solid #383838;
 }
+
+/* search page */
+
+.whole-sec {
+	margin-top: -2em;
+	background-color:#e6e8e6; 
+}
+.search-heading {
+	padding-bottom: .8em;
+	border-bottom: 1px solid black;
+}
+
+.searchlap-img {
+	height: 45vh;
+	width: 100%;
+	padding: 1em;
+}
+.search-img-body {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 .hidden-ph {
 	display: none;
 }
@@ -198,10 +220,23 @@ footer {
 	.hidden-ph {
 		display: block;
 	}
+	.searchlap-img {
+	height: 240px;
+	}
+	.card-body .search-se-2 {
+		padding-top: 3em;
+	}
 	.footer-header {
 	padding-left:5em;
 }
 .footer-social {
 	text-align: right;
+}
+.search-result {
+	border-left: 1px solid black;
+	padding-left: 3em;
+}
+.md-gap {
+	margin-left: .2em;
 }
 }
