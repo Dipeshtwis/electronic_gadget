@@ -21,6 +21,14 @@ body {
   color: white;
 }
 
+.footer-list li {
+  margin-bottom: 0.3em;
+}
+
+.navbar-nav li:nth-child(4) {
+  background-color: #d35266;
+}
+
 .header-h1 {
   color: #fff;
   font-weight: 800;
@@ -196,10 +204,6 @@ footer {
   font-size: 1.2em;
   line-height: 1.2;
   color: grey;
-}
-
-.footer-list li {
-  margin-bottom: 0.3em;
 }
 
 .col-12 {
