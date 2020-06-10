@@ -5,7 +5,7 @@ This project is the HTML &amp; CSS Capstone Project which is based on an online 
 
 ### Home Page
 
-Project Design Screenshot : ![Project Design](assets/img/home_page.png)
+Project Design Screenshot : ![Project Design](assets/img/Home_page.png)
 
 ### Search Page
 

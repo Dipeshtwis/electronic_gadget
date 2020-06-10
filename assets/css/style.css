@@ -312,6 +312,20 @@ aside {
   padding-top: 2em;
 }
 
+.page-link {
+  color: #383838;
+}
+
+.page-link:hover {
+  color: white;
+  background-color: #d35266;
+}
+
+.page-item.active .page-link {
+  border-color: white;
+  background-color: #d35266;
+}
+
 .hidden-ph,
 .hide {
   display: none;
