@@ -1,5 +1,5 @@
-# electronic_gadget
-The project is the HTML &amp; CSS Capstone Project which is based on an online shop for electronics. It resembles the real-life project.
+# Electronic_gadget
+This project is the HTML &amp; CSS Capstone Project which is based on an online shop for electronics. It resembles the real-life project.
 
 ## Project Design
 
@@ -9,7 +9,7 @@ Project Design Screenshot : ![Project Design](assets/img/home_page.png)
 
 ### Search Page
 
-Project Design Screenshot : ![Project Design](assets/img/search_age.png)
+Project Design Screenshot : ![Project Design](assets/img/search_page.png)
 
 
 ## Built With
@@ -20,9 +20,9 @@ Project Design Screenshot : ![Project Design](assets/img/search_age.png)
 - Font Awesome icon
 - Media Queries
 
-## Original Website
+## Website Design
 
-[Original website link](https://www.behance.net/gallery/24796463/ZATTIX)
+[ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Live Demo
 
