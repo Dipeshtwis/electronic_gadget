@@ -20,9 +20,6 @@ Project Design Screenshot : ![Project Design](assets/img/search_page.png)
 - Font Awesome icon
 - Media Queries
 
-## Website Design
-
-[ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Live Demo
 
@@ -32,6 +29,30 @@ Project Design Screenshot : ![Project Design](assets/img/search_page.png)
 # Github link:
 
 For the: [Github-link](https://github.com/Dipeshtwis/electronic_gadget/tree/feature-gadget)
+
+# Project flow
+
+## Header section
+
+- Contains bootstrap 4 nav bar
+- Make search box
+
+## Body section
+
+### Home page
+
+- Contains row of flex type
+- Used different grid columns of bootstrap 4
+
+### Search page
+
+- contains aside section from where one can choose specification
+- contain search result section which is made by flex and grid
+
+## Footer section
+
+- Used Flex-box and all its properties
+
 
 # Getting Started 🚀
 
@@ -66,4 +87,5 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to Microverse and The Odin Project.
+- Thanks for this Website Design [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX).
 
